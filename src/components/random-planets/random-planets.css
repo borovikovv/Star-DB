@@ -8,8 +8,8 @@
   padding: 1rem;
 }   
   .random-planet .random-planet-image {
-    width: 12rem;
-    height: 12rem;
+    width: 30%;
+    height: 30%;
     border-radius: 10px;
   }
   
@@ -29,9 +29,7 @@
       margin-right: 3rem;
     }
     .random-planet .random-planet-image {
-      width: 8rem;
-      height: 8rem;
-      margin-top: 1.5rem;
+      margin-top: 1.8rem;
       border-radius: 10px;
     }
   }
@@ -47,5 +45,9 @@
   }
   .random-planet h4 {
     margin-left: 75px;
+}
+.random-planet .random-planet-image {
+  width: 20%;
+  height: 20%;
 }
 }
