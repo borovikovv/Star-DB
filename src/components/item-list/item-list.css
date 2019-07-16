@@ -1,0 +1,20 @@
+.item-list {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+.item-list .list-group-item {
+    cursor: pointer;
+}
+
+.item-list .list-group-item:hover {
+    background-color: #444;
+}
+
+@media(max-width: 768px) {
+    .item-list {
+      margin-right: 3rem;
+    }
+  }

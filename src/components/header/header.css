@@ -1,0 +1,40 @@
+h2 {
+    margin-left: 3rem;
+}
+a {
+    display: grid;
+    padding-left: 20px;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+    outline: none;
+}
+.links {
+    padding-top: 15px;
+    list-style-type: none;
+}
+.header {
+    grid-area: "header";
+    color: aliceblue;
+}
+.header:hover{
+    color: aliceblue;
+}
+
+@media (min-width: 1200px) {
+    a {
+        display: grid;
+        padding-left: 5.3rem;
+        margin-top: 1.5rem;
+        cursor: pointer;
+    }
+    a:hover{
+        text-decoration: none;
+        outline: none;
+    }
+    .links {
+        padding-top: 10px;
+        list-style-type: none;
+    }
+}

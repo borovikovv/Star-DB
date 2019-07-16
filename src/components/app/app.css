@@ -1,0 +1,17 @@
+.toggleRandomPlanet {
+    margin: 1.5rem 0rem 1.5rem 4rem;
+    color: rgb(62, 62, 62);
+}
+/* .welcome {
+    margin-top: 2rem;
+    margin-left: 5rem;
+} */
+
+.starship {
+    margin-left: 3rem;
+}
+@media (min-width: 760px) {
+    .toggleRandomPlanet {
+        margin: 1.5rem 0rem 1.5rem 6rem;
+    }
+}

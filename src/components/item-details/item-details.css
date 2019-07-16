@@ -1,0 +1,42 @@
+.item-details {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.item-details .item-image {
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+}
+
+.item-details .list-group-item {
+  padding: .25rem;
+}
+.item-details h4 {
+  margin-left: 35px;
+}
+
+.item-details .list-group-item .term{
+  margin-right: .5rem;
+}
+
+@media(max-width: 1200px) {
+  .item-details {
+    margin-left: 3rem;
+  }
+  .item-image {
+    margin-top: .8rem;
+  }
+}
+
+@media(max-width: 576px) {
+  .item-image {
+    margin-top: .7rem;
+  }
+}
+
